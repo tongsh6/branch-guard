@@ -1,0 +1,15 @@
+[project]
+name = "branch-guard"
+version = "0.1.0"
+description = "Check version occupation before creating a git branch"
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "branch-guard contributors" }]
+keywords = ["git", "branch", "version", "semver", "hook"]
+
+[project.scripts]
+new-branch = "branch_guard.cli:main"
+
+[tool.setuptools]
+packages = ["branch_guard"]

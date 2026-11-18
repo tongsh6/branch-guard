@@ -1,0 +1,11 @@
+{
+  "baseline": "origin/master",
+  "bump": "minor",
+  "versionSource": "auto",
+  "releaseNote": "release-note.txt",
+  "releaseNoteLine": 2,
+  "placeholder": "TBD",
+  "fetch": true,
+  "allowDirty": false,
+  "multiRepo": []
+}
